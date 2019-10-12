@@ -2,12 +2,9 @@ def isDivisibleBy2(bin):
     l = len(bin) 
     if((l % 2) == 1): 
           
-    # add '0' in the beginning to  
-    # make length an even number      
+       
         bin = '0' + bin
-          
-    # to store sum of digits at odd  
-    # and even places respectively  
+           
     odd_sum = 0
     even_sum = 0
     isOddDigit = 1
