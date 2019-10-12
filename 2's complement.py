@@ -9,11 +9,6 @@ def printTwosComplement(bin):
     for i in range(n): 
         ones += flip(bin[i])  
   
-    # for two's complement go from right  
-    # to left in ones complement and if 
-    # we get 1 make, we make them 0 and  
-    # keep going left when we get first  
-    # 0, make that 1 and go out of loop   
     ones = list(ones.strip(""))
     twos = list(ones) 
     for i in range(n - 1, -1, -1): 
