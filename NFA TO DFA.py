@@ -129,4 +129,4 @@ class DFA:
         
         for transition in sorted(self.transition_functions):
             print(" ".join(str(value) for value in transition))
-© 2019 GitHub,
+
